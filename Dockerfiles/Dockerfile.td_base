@@ -1,0 +1,47 @@
+#Use a base nvidia container from https://hub.docker.com/r/nvidia/cuda/
+From nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
+
+# additional packages
+RUN apt update
+RUN apt install -y apt-utils curl wget vim git zsh sudo unzip
+RUN apt install -y build-essential clang libicu-dev
+RUN apt install -y python2.7-dev python3 python3-dev
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10
+
+
+# Install Apple Swift
+ARG SWIFT=swift-5.1.1
+RUN wget https://swift.org/builds/$SWIFT-release/ubuntu1804/$SWIFT-RELEASE/$SWIFT-RELEASE-ubuntu18.04.tar.gz
+RUN tar xzf $SWIFT-RELEASE-ubuntu18.04.tar.gz -C /opt
+
+
+
+# Install pip3
+RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+RUN python3 get-pip.py
+
+#Setup a user for inside the container
+RUN useradd -ms /bin/zsh tduser
+RUN echo "tduser:tduser" | chpasswd && adduser tduser sudo 
+RUN echo "tduser ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+USER tduser
+WORKDIR /home/tduser
+
+# Define environment variable
+ENV SHELL=/bin/zsh
+ENV export SHELL
+ENV export LC_ALL=C
+ENV PATH=/opt/$SWIFT-RELEASE-ubuntu18.04/usr/bin:"${PATH}"
+ENV PATH="/home/tduser/.local/bin:${PATH}"
+
+#Get oh-my-zsh
+RUN sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
+
+CMD ["zsh"]
+
+
+
+
+

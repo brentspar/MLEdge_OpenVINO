@@ -1,0 +1,6 @@
+sample_rate: 16000
+window_width: 16000
+LAYER_SIZE: 15
+HIDDEN_LAYER_COUNT: 8
+train_epochs: 30
+batch_size: 300

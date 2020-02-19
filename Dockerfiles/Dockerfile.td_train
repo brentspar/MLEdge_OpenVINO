@@ -1,0 +1,8 @@
+# Use a local container set up like this:
+# https://github.com/TurbulentDynamics/TD-env-setup-dev-help/env-setup/nvidia-docker2-base-ml-container.md
+FROM td_base_nvidia_ml
+
+RUN pip3 install --upgrade pip
+RUN pip3 install 'librosa>=0.5.0' 'numpy>=1.12.1' 'pandas>=0.19.2' 'PyYAML>=3.11' 'SoundFile>=0.8.1' 'tqdm>=4.11.2'
+
+RUN sudo apt-get install libsndfile1-dev -y

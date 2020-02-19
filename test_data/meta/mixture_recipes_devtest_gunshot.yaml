@@ -1,0 +1,132 @@
+- annotation_string:
+    "mixture_devtest_gunshot_000_0db30ac064cff6c8606d1883db51ebab.wav\t\
+    8.712365049684683\t10.212365049684683\tgunshot"
+  bg_classname: grocery_store
+  bg_path: audio/a113_30_60.wav
+  ebr: 0.0
+  event_class: gunshot
+  event_length_seconds: 1.5
+  event_path: gunshot/377789.wav
+  event_present: true
+  event_start_in_mixture_seconds: 8.712365049684683
+  mixture_audio_filename: mixture_devtest_gunshot_000_0db30ac064cff6c8606d1883db51ebab.wav
+  scaling_factor: 0.08217509479700945
+  segment_end_seconds: 2.1
+  segment_start_seconds: 0.6
+- annotation_string:
+    "mixture_devtest_gunshot_001_f0087dcc17da54fcdc4b8d2f4abd7e12.wav\t\
+    21.743661944936797\t22.663661944936795\tgunshot"
+  bg_classname: park
+  bg_path: audio/a018_0_30.wav
+  ebr: 0.0
+  event_class: gunshot
+  event_length_seconds: 0.9199999999999982
+  event_path: gunshot/34708.wav
+  event_present: true
+  event_start_in_mixture_seconds: 21.743661944936797
+  mixture_audio_filename: mixture_devtest_gunshot_001_f0087dcc17da54fcdc4b8d2f4abd7e12.wav
+  scaling_factor: 0.029260770121162443
+  segment_end_seconds: 18.52
+  segment_start_seconds: 17.6
+- annotation_string:
+    "mixture_devtest_gunshot_002_dade1e660fa24885477ece1a3630a619.wav\t\
+    16.932821881087023\t17.77282188108701\tgunshot"
+  bg_classname: city_center
+  bg_path: audio/b094_90_120.wav
+  ebr: 0.0
+  event_class: gunshot
+  event_length_seconds: 0.8399999999999892
+  event_path: gunshot/377786.wav
+  event_present: true
+  event_start_in_mixture_seconds: 16.932821881087023
+  mixture_audio_filename: mixture_devtest_gunshot_002_dade1e660fa24885477ece1a3630a619.wav
+  scaling_factor: 0.08661743828996137
+  segment_end_seconds: 79.74
+  segment_start_seconds: 78.9
+- annotation_string:
+    "mixture_devtest_gunshot_003_ed38bd2b64ee37d1fe6c4a9a61cf1fbe.wav\t\
+    29.100547945930195\t29.840547945930197\tgunshot"
+  bg_classname: bus
+  bg_path: audio/b110_210_240.wav
+  ebr: 0.0
+  event_class: gunshot
+  event_length_seconds: 0.7400000000000002
+  event_path: gunshot/377786.wav
+  event_present: true
+  event_start_in_mixture_seconds: 29.100547945930195
+  mixture_audio_filename: mixture_devtest_gunshot_003_ed38bd2b64ee37d1fe6c4a9a61cf1fbe.wav
+  scaling_factor: 0.09674784942959429
+  segment_end_seconds: 15.48
+  segment_start_seconds: 14.74
+- annotation_string:
+    "mixture_devtest_gunshot_004_8b2446ba86647c0e27333277c288378e.wav\t\
+    27.094645811633175\t28.274645811633174\tgunshot"
+  bg_classname: metro_station
+  bg_path: audio/a084_122_152.wav
+  ebr: 0.0
+  event_class: gunshot
+  event_length_seconds: 1.1799999999999997
+  event_path: gunshot/377789.wav
+  event_present: true
+  event_start_in_mixture_seconds: 27.094645811633175
+  mixture_audio_filename: mixture_devtest_gunshot_004_8b2446ba86647c0e27333277c288378e.wav
+  scaling_factor: 0.3262744171086068
+  segment_end_seconds: 21.42
+  segment_start_seconds: 20.240000000000002
+- annotation_string: mixture_devtest_gunshot_005_f91e76afe09db8d0456e2c93dd10aeee.wav
+  bg_classname: office
+  bg_path: audio/a120_0_30.wav
+  ebr: -.inf
+  event_present: false
+  mixture_audio_filename: mixture_devtest_gunshot_005_f91e76afe09db8d0456e2c93dd10aeee.wav
+- annotation_string:
+    "mixture_devtest_gunshot_006_d401fe1027c93bd36a8872991237e40b.wav\t\
+    28.762029737752073\t29.222029737752074\tgunshot"
+  bg_classname: bus
+  bg_path: audio/b110_180_210.wav
+  ebr: 0.0
+  event_class: gunshot
+  event_length_seconds: 0.46000000000000085
+  event_path: gunshot/350745.wav
+  event_present: true
+  event_start_in_mixture_seconds: 28.762029737752073
+  mixture_audio_filename: mixture_devtest_gunshot_006_d401fe1027c93bd36a8872991237e40b.wav
+  scaling_factor: 0.1511940493652018
+  segment_end_seconds: 18.98
+  segment_start_seconds: 18.52
+- annotation_string:
+    "mixture_devtest_gunshot_007_edfebc94b239454e3118844aa1c5230e.wav\t\
+    28.782535297903106\t29.4225352979031\tgunshot"
+  bg_classname: cafe/restaurant
+  bg_path: audio/a060_120_150.wav
+  ebr: 0.0
+  event_class: gunshot
+  event_length_seconds: 0.6399999999999935
+  event_path: gunshot/377786.wav
+  event_present: true
+  event_start_in_mixture_seconds: 28.782535297903106
+  mixture_audio_filename: mixture_devtest_gunshot_007_edfebc94b239454e3118844aa1c5230e.wav
+  scaling_factor: 0.017750539486976632
+  segment_end_seconds: 36.239999999999995
+  segment_start_seconds: 35.6
+- annotation_string: mixture_devtest_gunshot_008_ba7a890af724666acacb7838a25078ab.wav
+  bg_classname: cafe/restaurant
+  bg_path: audio/b050_90_120.wav
+  ebr: -.inf
+  event_present: false
+  mixture_audio_filename: mixture_devtest_gunshot_008_ba7a890af724666acacb7838a25078ab.wav
+- annotation_string:
+    "mixture_devtest_gunshot_009_813140f8d7bbbe684aa07ca27f280ca6.wav\t\
+    8.712365049684683\t10.212365049684683\tgunshot"
+  bg_classname: office
+  bg_path: audio/a099_60_90.wav
+  ebr: 0.0
+  event_class: gunshot
+  event_length_seconds: 1.5
+  event_path: gunshot/377789.wav
+  event_present: true
+  event_start_in_mixture_seconds: 8.712365049684683
+  mixture_audio_filename: mixture_devtest_gunshot_009_813140f8d7bbbe684aa07ca27f280ca6.wav
+  scaling_factor: 0.007486584551725875
+  segment_end_seconds: 2.1
+  segment_start_seconds: 0.6
